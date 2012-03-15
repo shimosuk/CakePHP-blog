@@ -9,6 +9,6 @@ class PostsController extends AppController {
 
     public function view($id = null) {
         $this->Post->id = $id;
-        $this->set('post', $this->Post->read());
+        $this->set('post', $this->Post->findById($id));
     }
 }

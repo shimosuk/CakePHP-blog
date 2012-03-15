@@ -32,3 +32,8 @@
 2012-03-15 13:31:26 Error: [MissingControllerException] Controller class IndexController could not be found.
 #0 /Applications/MAMP/htdocs/blog/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-03-15 13:46:43 Error: [MissingActionException] Action PostsController::ndex() could not be found.
+#0 /Applications/MAMP/htdocs/blog/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/blog/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/blog/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

@@ -42,3 +42,10 @@
 #1 /Applications/MAMP/htdocs/blog/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
 #2 /Applications/MAMP/htdocs/blog/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-03-15 14:39:16 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('1')
+#1 /Applications/MAMP/htdocs/blog/lib/Cake/Controller/Controller.php(488): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/blog/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/blog/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/blog/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -1,0 +1,5 @@
+2012-03-15 11:07:26 Error: [MissingActionException] Action PostsController::index() could not be found.
+#0 /Applications/MAMP/htdocs/blog/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/blog/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/blog/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

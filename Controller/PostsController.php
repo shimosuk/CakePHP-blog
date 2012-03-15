@@ -11,4 +11,15 @@ class PostsController extends AppController {
         $this->Post->id = $id;
         $this->set('post', $this->Post->findById($id));
     }
+
+    public function add() {
+        if ($this->request->is('post')) {
+            if ($this->Post->save($this->request->data)) {
+                $this->Session->setFlash('Your post has been saved.');
+                $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash('Unable to add your post.');
+            }
+        }
+    }
 }

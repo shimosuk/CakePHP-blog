@@ -29,3 +29,6 @@
 #3 /Applications/MAMP/htdocs/blog/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
 #4 /Applications/MAMP/htdocs/blog/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-03-15 13:31:26 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 /Applications/MAMP/htdocs/blog/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
